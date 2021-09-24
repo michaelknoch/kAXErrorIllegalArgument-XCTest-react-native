@@ -8,11 +8,11 @@
 import XCTest
 
 class screensUITests: XCTestCase {
-  func test() throws {
+  func failingTest() throws {
     let app = XCUIApplication()
     app.launch()
 
     XCTAssertTrue(app.otherElements["wrapper"].waitForExistence(timeout: 15))
-    XCTAssertTrue(app.otherElements["wrapper"].waitForExistence(timeout: 15))
+    XCTAssertTrue(app.otherElements["element"].waitForExistence(timeout: 15))
   }
 }
