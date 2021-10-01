@@ -1,11 +1,8 @@
 # kAXErrorIllegalArgument-XCTest-react-native
 
-
 ## Error
 
 <img width="800" alt="Screenshot 2021-09-24 at 16 14 01" src="https://user-images.githubusercontent.com/5617793/134689355-b4ebe30a-697d-4670-ab41-052218335c9f.png">
-
-
 
 ```
 Test Case '-[screensUITests.screensUITests test]' started.
@@ -25,15 +22,15 @@ Test Case '-[screensUITests.screensUITests test]' started.
     t =    43.48s Tear Down
 Test Case '-[screensUITests.screensUITests test]' failed (43.684 seconds).
 Test Suite 'screensUITests' failed at 2021-09-24 16:11:19.200.
-	 Executed 1 test, with 1 failure (0 unexpected) in 43.684 (43.686) seconds
+     Executed 1 test, with 1 failure (0 unexpected) in 43.684 (43.686) seconds
 Test Suite 'screensUITests.xctest' failed at 2021-09-24 16:11:19.201.
-	 Executed 1 test, with 1 failure (0 unexpected) in 43.684 (43.687) seconds
+     Executed 1 test, with 1 failure (0 unexpected) in 43.684 (43.687) seconds
 Test Suite 'Selected tests' failed at 2021-09-24 16:11:19.202.
-	 Executed 1 test, with 1 failure (0 unexpected) in 43.684 (43.689) seconds
+     Executed 1 test, with 1 failure (0 unexpected) in 43.684 (43.689) seconds
 ```
 
 ## Reproduce
 
-- clone this repo
-- npm i && cd ios && pod install
-- start test `failingTest` of screensUITests via xcode
+-   clone this repo
+-   npm i && cd ios && pod install
+-   start test function `test` of screensUITests via xcode

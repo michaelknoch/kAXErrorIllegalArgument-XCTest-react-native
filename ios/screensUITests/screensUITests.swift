@@ -8,7 +8,7 @@
 import XCTest
 
 class screensUITests: XCTestCase {
-  func failingTest() throws {
+  func test() throws {
     let app = XCUIApplication()
     app.launch()
 
